@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natural Forest</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Playfair+Display:wght@400;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="header-nav" id="nav">
+      <ul>
+        <li><a href="#fv">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#information">Information</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <!-- ハンバーガーメニュー -->
+    <a class="hum-btn" id="hum-btn">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </a>
+  </header>
+
+  <main>
+    <!-- ファーストビュー -->
+    <div id="fv">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./img/star.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./img/forest.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./img/park-224443_1920.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./img/river-2951997_1920.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./img/tent.jpg" alt=""></div>
+
+       </div>
+       <div class="fv-title">
+         <h1>Natural Forest</h1>
+         <p>Surrounded by nature</p>
+       </div>
+
+      </div>
+    </div>
+    <!-- ファーストビュー -->
+    <!--アバウト -->
+    <div class="section-wrapper" id="about">
+      <div class="section-container">
+        <h2>About</h2>
+        <p class="about-top-txt">Natural Forestは標高900mに位置しきれいな水が流れる自然豊かな森です。
+          鳥のさえずりに包まれ時間を忘れてゆっくりと過ごしてみませんか。
+        </p>
+        <div class="about-content">
+          <div class="about-item">
+            <div class="about-item-img">
+              <img src="./img/tent-about.jpg" alt="">
+            </div>
+            <div class="about-item-txt">
+              <p class="about-item-title">キャンプサイト</p>
+              <p>テントの設営がしやすい10のエリアがあります。周囲も木々に囲まれ自然を満喫できます。</p>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="about-item-img">
+              <img src="./img/river-about.jpg" alt="">
+            </div>
+            <div class="about-item-txt">
+              <p class="about-item-title">川釣り</p>
+              <p>きれいな水であるため川釣りだけでなく、ホタルを見ることもできます。</p>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="about-item-img">
+              <img src="./img/park-about.jpg" alt="">
+            </div>
+            <div class="about-item-txt">
+              <p class="about-item-title">広場</p>
+              <p>昼間はグリーンの芝生の上でお昼寝や読書ができ、夜は星空の下でゆったりと過ごせます。</p>
+            </div>
+          </div>
+          
+          <div class="about-item">
+            <div class="about-item-img">
+              <img src="./img/house-about.jpg" alt="">
+            </div>
+            <div class="about-item-txt">
+              <p class="about-item-title">管理棟</p>
+              <p>Natural Forestの受付や管理をしています。また、採れたての野菜やキャンプ用品も取り揃えております。お気軽にお越しください。</p>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--アバウト -->
+    <!-- インフォメーション -->
+    <div class="section-wrapper" id="information">
+      <div class="section-container">
+        <h2>Information</h2>
+        <dl>
+          <div class="info-list">
+            <dt>TEL</dt>
+            <dd>111-1111-1111</dd>
+          </div>
+          <div class="info-list">
+            <dt>Address</dt>
+            <dd>日本 1丁目12345</dd>
+          </div>
+        </dl>
+        <div class="maps-outer">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13015.197545815978!2d138.71860862227823!3d35.3606246843219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019629a42fdc899%3A0xa6a1fcc916f3a4df!2z5a-M5aOr5bGx!5e0!3m2!1sja!2sjp!4v1594624016683!5m2!1sja!2sjp?wmode=transparent" width="1100" height="360" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+      </div>
+    </div>
+    <!--   インフォメーション -->
+    <!--コンタクト-->
+    <div class="section-wrapper" id="contact">
+      <div class="section-container">
+        <h2>Contact</h2>
+        <form action="">
+          <label for="name">お名前</label>
+          <input type="text" id="name">
+          <label for="mail">メールアドレス</label>
+          <input type="text"id="mail">
+          <label for="detail">お問い合わせ内容</label>
+          <textarea name="" id="detail" cols="30" rows="10"></textarea>
+          <div class="submit-btn">
+            <input class="submit-btn" type="submit" value="送信">
+          </div>
+        </form>
+
+      </div>
+    </div>
+    <!--コンタクト-->
+  </main>
+  <footer>
+    <small>&copy;natural forest</small>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
